@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from upc_mrn/msg/Frontier.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module upc_mrn {
+  module msg {
+    struct Frontier {
+      @verbatim (language="comment", text=
+        "frontier size (amount of cells)")
+      uint32 size;
+
+      @verbatim (language="comment", text=
+        "Points" "\n"
+        "Frontier center point")
+      geometry_msgs::msg::Point center_point;
+
+      @verbatim (language="comment", text=
+        "vector containing points of all frontier cells")
+      sequence<geometry_msgs::msg::Point> cells_points;
+
+      @verbatim (language="comment", text=
+        "Cells indexes of map array" "\n"
+        "cell corresponding to center_point")
+      uint32 center_cell;
+
+      @verbatim (language="comment", text=
+        "vector containing all frontier cells")
+      sequence<uint32> cells;
+    };
+  };
+};

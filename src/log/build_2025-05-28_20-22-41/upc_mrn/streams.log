@@ -1,0 +1,245 @@
+[0.009s] Invoking command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn -- -j4 -l4
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target pub_twist[0m
+[0.047s] [  6%] Built target upc_mrn__rosidl_generator_c
+[0.050s] [  8%] Built target upc_mrn__cpp
+[0.055s] [  8%] Built target ament_cmake_python_copy_upc_mrn
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target odom_new[0m
+[0.059s] [ 11%] Built target pub_twist
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target laser_processor[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target safety_node[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_cpp[0m
+[0.071s] [ 15%] Built target odom_new
+[0.076s] [ 18%] Built target laser_processor
+[0.077s] [ 27%] Built target upc_mrn__rosidl_typesupport_cpp
+[0.077s] [ 28%] Built target safety_node
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_fastrtps_c[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_fastrtps_cpp[0m
+[0.091s] [ 35%] Built target upc_mrn__rosidl_typesupport_fastrtps_c
+[0.092s] [ 42%] Built target upc_mrn__rosidl_typesupport_c
+[0.092s] [ 49%] Built target upc_mrn__rosidl_typesupport_introspection_c
+[0.097s] [ 55%] Built target upc_mrn__rosidl_typesupport_fastrtps_cpp
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_introspection_cpp[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target find_frontiers[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target exploration_random[0m
+[0.111s] [ 62%] Built target upc_mrn__rosidl_typesupport_introspection_cpp
+[0.121s] [ 66%] Built target find_frontiers
+[0.122s] [ 69%] Built target exploration_random
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target exploration_random_frontier[0m
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target exploration_closest_frontier[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target exploration_biggest_frontier[0m
+[0.139s] [ 72%] Built target exploration_random_frontier
+[0.148s] [ 76%] Built target exploration_closest_frontier
+[0.149s] [ 79%] Built target exploration_biggest_frontier
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target exploration_project[0m
+[0.164s] [ 81%] Built target upc_mrn
+[0.164s] [ 83%] Built target exploration_project
+[0.179s] [ 84%] Built target upc_mrn__py
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_generator_py[0m
+[0.197s] [ 89%] Built target upc_mrn__rosidl_generator_py
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_c__pyext[0m
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target upc_mrn__rosidl_typesupport_introspection_c__pyext[0m
+[0.217s] [100%] Built target upc_mrn__rosidl_typesupport_fastrtps_c__pyext
+[0.217s] [100%] Built target upc_mrn__rosidl_typesupport_c__pyext
+[0.217s] [100%] Built target upc_mrn__rosidl_typesupport_introspection_c__pyext
+[0.311s] running egg_info
+[0.312s] writing upc_mrn.egg-info/PKG-INFO
+[0.312s] writing dependency_links to upc_mrn.egg-info/dependency_links.txt
+[0.312s] writing top-level names to upc_mrn.egg-info/top_level.txt
+[0.314s] reading manifest file 'upc_mrn.egg-info/SOURCES.txt'
+[0.321s] writing manifest file 'upc_mrn.egg-info/SOURCES.txt'
+[0.342s] [100%] Built target ament_cmake_python_build_upc_mrn_egg
+[0.350s] Invoked command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn -- -j4 -l4
+[0.358s] Invoking command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn
+[0.364s] -- Install configuration: ""
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/ament_index/resource_index/rosidl_interfaces/upc_mrn
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/frontiers.h
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__functions.h
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__functions.h
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__functions.c
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__functions.c
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__struct.h
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__type_support.h
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__type_support.h
+[0.364s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__struct.h
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/rosidl_generator_c__visibility_control.h
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/frontier.h
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/library_path.sh
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/library_path.dsv
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_generator_c.so
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__rosidl_typesupport_fastrtps_c.h
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__rosidl_typesupport_fastrtps_c.h
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_typesupport_fastrtps_c.so
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__struct.hpp
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__traits.hpp
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__builder.hpp
+[0.365s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__traits.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__builder.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__struct.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__type_support.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__type_support.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/frontier.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/frontiers.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__rosidl_typesupport_fastrtps_cpp.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/dds_fastrtps
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__rosidl_typesupport_fastrtps_cpp.hpp
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_typesupport_fastrtps_cpp.so
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.366s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__rosidl_typesupport_introspection_c.h
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__type_support.c
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__type_support.c
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__rosidl_typesupport_introspection_c.h
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_typesupport_introspection_c.so
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_typesupport_c.so
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__type_support.cpp
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__type_support.cpp
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontiers__rosidl_typesupport_introspection_cpp.hpp
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/include/upc_mrn/upc_mrn/msg/detail/frontier__rosidl_typesupport_introspection_cpp.hpp
+[0.367s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_typesupport_introspection_cpp.so
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_typesupport_cpp.so
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/pythonpath.sh
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/pythonpath.dsv
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn-0.0.0-py3.10.egg-info
+[0.368s] -- Installing: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn-0.0.0-py3.10.egg-info/top_level.txt
+[0.368s] -- Installing: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn-0.0.0-py3.10.egg-info/PKG-INFO
+[0.368s] -- Installing: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.368s] -- Installing: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/upc_mrn_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/upc_mrn_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/_upc_mrn_s.ep.rosidl_typesupport_c.c
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg/_frontiers.py
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg/_frontier_s.c
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg/_frontiers_s.c
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg/__init__.py
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg/_frontier.py
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/__init__.py
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/_upc_mrn_s.ep.rosidl_typesupport_introspection_c.c
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/libupc_mrn__rosidl_generator_py.so
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/_upc_mrn_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.369s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/upc_mrn_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.393s] Listing '/home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn'...
+[0.393s] Listing '/home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/msg'...
+[0.397s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/upc_mrn_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.397s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/upc_mrn_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.398s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/local/lib/python3.10/dist-packages/upc_mrn/upc_mrn_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.398s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/libupc_mrn__rosidl_generator_py.so
+[0.398s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/msg/Frontier.idl
+[0.398s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/msg/Frontiers.idl
+[0.398s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/msg/Frontier.msg
+[0.398s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/msg/Frontiers.msg
+[0.399s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/pub_twist
+[0.399s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/odom_new
+[0.400s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/laser_processor
+[0.400s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/safety_node
+[0.401s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/find_frontiers
+[0.401s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/exploration_random
+[0.402s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/exploration_random_frontier
+[0.402s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/exploration_closest_frontier
+[0.402s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/exploration_biggest_frontier
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/lib/upc_mrn/exploration_project
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//config
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//config/nav2.yaml
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//config/slam.yaml
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//config/localization.yaml
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/ros_ign_bridge.launch.py
+[0.403s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/robot_description.launch.py
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/slam.launch.yaml
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/frontiers.launch.yaml
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/localization.launch.yaml
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/exploration.launch.py
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/ignition.launch.py
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/turtlebot4_spawn.launch.py
+[0.404s] -- Installing: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/frontiers_turtlebot.launch.yaml
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/turtlebot4_nodes.launch.py
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/nav.launch.yaml
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//launch/sim.launch.py
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//maps
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//maps/rooms.yaml
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//maps/rooms.pgm
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/robot.rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/localization.rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/laser.rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/slam.rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/odom_new.rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/frontiers.rviz
+[0.404s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//rviz/odom.rviz
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/standard
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/standard/tower_sensor_plate.urdf.xacro
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/standard/turtlebot4.urdf.xacro
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/standard/weight_block.urdf.xacro
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/standard/tower_standoff.urdf.xacro
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/lite_no_oak
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/lite_no_oak/turtlebot4.urdf.xacro
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/lite
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//urdf/lite/turtlebot4.urdf.xacro
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//worlds
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//worlds/simple.sdf
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//worlds/rooms.sdf
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//worlds/small.sdf
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn//worlds/large.sdf
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/ament_index/resource_index/package_run_dependencies/upc_mrn
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/ament_index/resource_index/parent_prefix_path/upc_mrn
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/ament_prefix_path.sh
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/ament_prefix_path.dsv
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/path.sh
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/environment/path.dsv
+[0.405s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/local_setup.bash
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/local_setup.sh
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/local_setup.zsh
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/local_setup.dsv
+[0.406s] -- Installing: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/package.dsv
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/ament_index/resource_index/packages/upc_mrn
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_generator_cExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_generator_cExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_typesupport_fastrtps_cExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_generator_cppExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_introspection_cExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_cExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_cExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_introspection_cppExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_cppExport.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrn__rosidl_typesupport_cppExport-noconfig.cmake
+[0.406s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_generator_pyExport.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/export_upc_mrn__rosidl_generator_pyExport-noconfig.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/rosidl_cmake-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/ament_cmake_export_libraries-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/ament_cmake_export_targets-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrnConfig.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/cmake/upc_mrnConfig-version.cmake
+[0.407s] -- Up-to-date: /home/hani/ros2_ws/src/upc_mrn/install/upc_mrn/share/upc_mrn/package.xml
+[0.409s] Invoked command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn

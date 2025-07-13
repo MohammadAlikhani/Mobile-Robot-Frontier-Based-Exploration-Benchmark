@@ -1,0 +1,424 @@
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Hit:2 http://es.archive.ubuntu.com/ubuntu jammy InRelease
+Get:3 https://packages.microsoft.com/repos/vscode stable InRelease [3.594 B]
+Get:4 https://packages.microsoft.com/repos/code stable InRelease [3.590 B]
+Get:5 http://es.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:6 http://es.archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:7 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [26,8 kB]
+Get:8 https://packages.microsoft.com/repos/code stable/main armhf Packages [19,2 kB]
+Get:9 https://packages.microsoft.com/repos/code stable/main arm64 Packages [19,1 kB]
+Get:10 https://packages.microsoft.com/repos/code stable/main amd64 Packages [19,0 kB]
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2.352 kB]
+Get:12 http://es.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [811 kB]
+Get:13 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2.598 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [640 kB]
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [357 kB]
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [54,7 kB]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [3.460 kB]
+Get:18 http://es.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [421 kB]
+Get:19 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [114 kB]
+Get:20 http://es.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [3.585 kB]
+Get:21 http://packages.ros.org/ros2/ubuntu jammy InRelease [4.682 B]
+Get:22 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [618 kB]
+Get:23 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 DEP-11 Metadata [208 B]
+Get:24 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [974 kB]
+Get:25 http://es.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [640 kB]
+Get:26 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [659 kB]
+Get:27 http://es.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 DEP-11 Metadata [212 B]
+Get:28 http://es.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1.208 kB]
+Get:29 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [125 kB]
+Get:30 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 DEP-11 Metadata [208 B]
+Get:31 http://es.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [767 kB]
+Get:32 http://es.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [359 kB]
+Get:33 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1.672 kB]
+Get:34 http://es.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:35 http://es.archive.ubuntu.com/ubuntu jammy-backports/main amd64 DEP-11 Metadata [7.088 B]
+Get:36 http://es.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 DEP-11 Metadata [216 B]
+Get:37 http://es.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [24,2 kB]
+Get:38 http://es.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 DEP-11 Metadata [216 B]
+Get:39 http://packages.ros.org/ros2/ubuntu jammy/main i386 Packages [43,6 kB]
+Fetched 22,0 MB in 13s (1.682 kB/s)
+Reading package lists...
+W: http://packages.ros.org/ros2/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+vim is already the newest version (2:8.2.3995-1ubuntu2.24).
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 483 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ssh is already the newest version (1:8.9p1-3ubuntu0.13).
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 483 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.34.1-1ubuntu1.12).
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 483 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-colcon-common-extensions is already the newest version (0.3.0-100).
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 483 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ignition-fortress is already the newest version (1.0.3-2~jammy).
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 483 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-rplidar-ros
+1 upgraded, 0 newly installed, 0 to remove and 482 not upgraded.
+Need to get 168 kB of archives.
+After this operation, 4.096 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rplidar-ros amd64 2.1.4-1jammy.20250429.211649 [168 kB]
+Fetched 168 kB in 1s (129 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341369 files and directories currently installed.)
+Preparing to unpack .../ros-humble-rplidar-ros_2.1.4-1jammy.20250429.211649_amd64.deb ...
+Unpacking ros-humble-rplidar-ros (2.1.4-1jammy.20250429.211649) over (2.1.4-1jammy.20241128.022635) ...
+Setting up ros-humble-rplidar-ros (2.1.4-1jammy.20250429.211649) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-rqt-tf-tree
+1 upgraded, 0 newly installed, 0 to remove and 481 not upgraded.
+Need to get 15,4 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rqt-tf-tree amd64 1.0.5-1jammy.20250429.205244 [15,4 kB]
+Fetched 15,4 kB in 1s (15,0 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341369 files and directories currently installed.)
+Preparing to unpack .../ros-humble-rqt-tf-tree_1.0.5-1jammy.20250429.205244_amd64.deb ...
+Unpacking ros-humble-rqt-tf-tree (1.0.5-1jammy.20250429.205244) over (1.0.5-1jammy.20250121.133212) ...
+Setting up ros-humble-rqt-tf-tree (1.0.5-1jammy.20250429.205244) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-irobot-create-ignition-plugins ros-humble-launch-param-builder
+  ros-humble-moveit-common ros-humble-moveit-configs-utils
+  ros-humble-moveit-core ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-teleop-twist-keyboard
+1 upgraded, 0 newly installed, 0 to remove and 480 not upgraded.
+Need to get 8.584 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-teleop-twist-keyboard amd64 2.4.0-1jammy.20250429.185740 [8.584 B]
+Fetched 8.584 B in 1s (16,6 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341369 files and directories currently installed.)
+Preparing to unpack .../ros-humble-teleop-twist-keyboard_2.4.0-1jammy.20250429.185740_amd64.deb ...
+Unpacking ros-humble-teleop-twist-keyboard (2.4.0-1jammy.20250429.185740) over (2.4.0-1jammy.20241128.020051) ...
+Setting up ros-humble-teleop-twist-keyboard (2.4.0-1jammy.20250429.185740) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-launch-param-builder ros-humble-moveit-common
+  ros-humble-moveit-configs-utils ros-humble-moveit-core
+  ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ros-humble-ign-ros2-control ros-humble-irobot-create-ignition-bringup
+  ros-humble-turtlebot4-ignition-bringup
+The following NEW packages will be installed:
+  ros-humble-ign-ros2-control ros-humble-irobot-create-ignition-bringup
+  ros-humble-turtlebot4-ignition-bringup ros-humble-turtlebot4-simulator
+0 upgraded, 4 newly installed, 0 to remove and 480 not upgraded.
+Need to get 37,8 kB of archives.
+After this operation, 334 kB of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ign-ros2-control amd64 0.7.14-1jammy.20250429.223648 [5.090 B]
+Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-irobot-create-ignition-bringup amd64 2.1.0-1jammy.20250514.175208 [13,5 kB]
+Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-turtlebot4-ignition-bringup amd64 1.0.3-1jammy.20250514.175704 [14,1 kB]
+Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-turtlebot4-simulator amd64 1.0.3-1jammy.20250514.180441 [5.146 B]
+Fetched 37,8 kB in 1s (35,7 kB/s)
+Selecting previously unselected package ros-humble-ign-ros2-control.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341369 files and directories currently installed.)
+Preparing to unpack .../ros-humble-ign-ros2-control_0.7.14-1jammy.20250429.223648_amd64.deb ...
+Unpacking ros-humble-ign-ros2-control (0.7.14-1jammy.20250429.223648) ...
+Selecting previously unselected package ros-humble-irobot-create-ignition-bringup.
+Preparing to unpack .../ros-humble-irobot-create-ignition-bringup_2.1.0-1jammy.20250514.175208_amd64.deb ...
+Unpacking ros-humble-irobot-create-ignition-bringup (2.1.0-1jammy.20250514.175208) ...
+Selecting previously unselected package ros-humble-turtlebot4-ignition-bringup.
+Preparing to unpack .../ros-humble-turtlebot4-ignition-bringup_1.0.3-1jammy.20250514.175704_amd64.deb ...
+Unpacking ros-humble-turtlebot4-ignition-bringup (1.0.3-1jammy.20250514.175704) ...
+Selecting previously unselected package ros-humble-turtlebot4-simulator.
+Preparing to unpack .../ros-humble-turtlebot4-simulator_1.0.3-1jammy.20250514.180441_amd64.deb ...
+Unpacking ros-humble-turtlebot4-simulator (1.0.3-1jammy.20250514.180441) ...
+Setting up ros-humble-ign-ros2-control (0.7.14-1jammy.20250429.223648) ...
+Setting up ros-humble-irobot-create-ignition-bringup (2.1.0-1jammy.20250514.175208) ...
+Setting up ros-humble-turtlebot4-ignition-bringup (1.0.3-1jammy.20250514.175704) ...
+Setting up ros-humble-turtlebot4-simulator (1.0.3-1jammy.20250514.180441) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-launch-param-builder ros-humble-moveit-common
+  ros-humble-moveit-configs-utils ros-humble-moveit-core
+  ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-turtlebot4-desktop
+1 upgraded, 0 newly installed, 0 to remove and 479 not upgraded.
+Need to get 5.004 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-turtlebot4-desktop amd64 1.0.0-1jammy.20250514.175120 [5.004 B]
+Fetched 5.004 B in 0s (11,4 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341485 files and directories currently installed.)
+Preparing to unpack .../ros-humble-turtlebot4-desktop_1.0.0-1jammy.20250514.175120_amd64.deb ...
+Unpacking ros-humble-turtlebot4-desktop (1.0.0-1jammy.20250514.175120) over (1.0.0-1jammy.20250121.155754) ...
+Setting up ros-humble-turtlebot4-desktop (1.0.0-1jammy.20250514.175120) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-launch-param-builder ros-humble-moveit-common
+  ros-humble-moveit-configs-utils ros-humble-moveit-core
+  ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-turtlebot4-navigation
+1 upgraded, 0 newly installed, 0 to remove and 478 not upgraded.
+Need to get 26,2 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-turtlebot4-navigation amd64 1.0.5-1jammy.20250514.175154 [26,2 kB]
+Fetched 26,2 kB in 1s (39,6 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341485 files and directories currently installed.)
+Preparing to unpack .../ros-humble-turtlebot4-navigation_1.0.5-1jammy.20250514.175154_amd64.deb ...
+Unpacking ros-humble-turtlebot4-navigation (1.0.5-1jammy.20250514.175154) over (1.0.5-1jammy.20250210.230608) ...
+Setting up ros-humble-turtlebot4-navigation (1.0.5-1jammy.20250514.175154) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-launch-param-builder ros-humble-moveit-common
+  ros-humble-moveit-configs-utils ros-humble-moveit-core
+  ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-turtlebot4-node
+1 upgraded, 0 newly installed, 0 to remove and 477 not upgraded.
+Need to get 331 kB of archives.
+After this operation, 8.192 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-turtlebot4-node amd64 1.0.5-1jammy.20250429.211516 [331 kB]
+Fetched 331 kB in 2s (217 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341485 files and directories currently installed.)
+Preparing to unpack .../ros-humble-turtlebot4-node_1.0.5-1jammy.20250429.211516_amd64.deb ...
+Unpacking ros-humble-turtlebot4-node (1.0.5-1jammy.20250429.211516) over (1.0.5-1jammy.20241128.022037) ...
+Setting up ros-humble-turtlebot4-node (1.0.5-1jammy.20250429.211516) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  ros-humble-eigen-stl-containers ros-humble-geometric-shapes
+  ros-humble-launch-param-builder ros-humble-moveit-common
+  ros-humble-moveit-configs-utils ros-humble-moveit-core
+  ros-humble-moveit-kinematics ros-humble-moveit-msgs
+  ros-humble-moveit-planners-ompl ros-humble-moveit-ros-move-group
+  ros-humble-moveit-ros-occupancy-map-monitor ros-humble-moveit-ros-planning
+  ros-humble-moveit-ros-planning-interface
+  ros-humble-moveit-ros-robot-interaction ros-humble-moveit-ros-visualization
+  ros-humble-moveit-ros-warehouse ros-humble-moveit-servo
+  ros-humble-moveit-simple-controller-manager
+  ros-humble-object-recognition-msgs ros-humble-octomap
+  ros-humble-octomap-msgs ros-humble-random-numbers ros-humble-ruckig
+  ros-humble-srdfdom ros-humble-ur-controllers ros-humble-ur-dashboard-msgs
+  ros-humble-ur-moveit-config ros-humble-ur-msgs ros-humble-urdfdom-py
+  ros-humble-warehouse-ros ros-humble-warehouse-ros-sqlite
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ros-humble-turtlebot4-tutorials
+1 upgraded, 0 newly installed, 0 to remove and 476 not upgraded.
+Need to get 5.050 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-turtlebot4-tutorials amd64 1.0.1-1jammy.20250514.180048 [5.050 B]
+Fetched 5.050 B in 0s (12,2 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 341485 files and directories currently installed.)
+Preparing to unpack .../ros-humble-turtlebot4-tutorials_1.0.1-1jammy.20250514.180048_amd64.deb ...
+Unpacking ros-humble-turtlebot4-tutorials (1.0.1-1jammy.20250514.180048) over (1.0.1-1jammy.20250210.231708) ...
+Setting up ros-humble-turtlebot4-tutorials (1.0.1-1jammy.20250514.180048) ...
+Starting >>> upc_mrn
+Finished <<< upc_mrn [1.93s]
+
+Summary: 1 package finished [2.19s]

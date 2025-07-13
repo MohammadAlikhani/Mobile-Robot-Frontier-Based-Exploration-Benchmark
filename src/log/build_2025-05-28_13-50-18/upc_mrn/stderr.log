@@ -1,0 +1,14 @@
+[01m[K/home/hani/ros2_ws/src/upc_mrn/src/odom_new.cpp:[m[K In member function ‘[01m[Kvoid OdomNew::jointStatesCallback(const JointState&)[m[K’:
+[01m[K/home/hani/ros2_ws/src/upc_mrn/src/odom_new.cpp:84:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kx__[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   84 |     double [01;35m[Kx__[m[K, y__, th__;
+      |            [01;35m[K^~~[m[K
+[01m[K/home/hani/ros2_ws/src/upc_mrn/src/odom_new.cpp:84:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ky__[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   84 |     double x__, [01;35m[Ky__[m[K, th__;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/hani/ros2_ws/src/upc_mrn/src/odom_new.cpp:84:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kth__[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   84 |     double x__, y__, [01;35m[Kth__[m[K;
+      |                      [01;35m[K^~~~[m[K
+[01m[K/home/hani/ros2_ws/src/upc_mrn/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid SafetyNode::laserCallback(const LaserScan&)[m[K’:
+[01m[K/home/hani/ros2_ws/src/upc_mrn/src/safety_node.cpp:48:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klaser_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 |   void laserCallback([01;35m[Kconst sensor_msgs::msg::LaserScan &laser_msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K

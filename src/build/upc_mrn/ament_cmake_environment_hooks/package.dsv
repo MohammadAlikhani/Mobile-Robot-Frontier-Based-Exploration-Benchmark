@@ -1,0 +1,4 @@
+source;share/upc_mrn/local_setup.bash
+source;share/upc_mrn/local_setup.dsv
+source;share/upc_mrn/local_setup.sh
+source;share/upc_mrn/local_setup.zsh

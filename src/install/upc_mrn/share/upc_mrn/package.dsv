@@ -1,0 +1,11 @@
+source;share/upc_mrn/hook/cmake_prefix_path.ps1
+source;share/upc_mrn/hook/cmake_prefix_path.dsv
+source;share/upc_mrn/hook/cmake_prefix_path.sh
+source;share/upc_mrn/hook/ld_library_path_lib.ps1
+source;share/upc_mrn/hook/ld_library_path_lib.dsv
+source;share/upc_mrn/hook/ld_library_path_lib.sh
+source;share/upc_mrn/local_setup.bash
+source;share/upc_mrn/local_setup.dsv
+source;share/upc_mrn/local_setup.ps1
+source;share/upc_mrn/local_setup.sh
+source;share/upc_mrn/local_setup.zsh
