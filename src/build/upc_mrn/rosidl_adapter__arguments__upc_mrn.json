@@ -1,7 +1,0 @@
-{
-  "package_name": "upc_mrn",
-  "non_idl_tuples": [
-    "/home/hani/ros2_ws/src/upc_mrn:msg/Frontier.msg",
-    "/home/hani/ros2_ws/src/upc_mrn:msg/Frontiers.msg"
-  ]
-}

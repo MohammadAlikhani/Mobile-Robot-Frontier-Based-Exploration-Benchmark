@@ -1,4 +1,0 @@
-Invoking command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn -- -j4 -l4
-Invoked command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn -- -j4 -l4
-Invoking command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn
-Invoked command in '/home/hani/ros2_ws/src/upc_mrn/build/upc_mrn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hani/ros2_ws/src/upc_mrn/build/upc_mrn

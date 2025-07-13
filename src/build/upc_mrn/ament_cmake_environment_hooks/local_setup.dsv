@@ -1,4 +1,0 @@
-source;share/upc_mrn/environment/ament_prefix_path.sh
-source;share/upc_mrn/environment/library_path.sh
-source;share/upc_mrn/environment/path.sh
-source;share/upc_mrn/environment/pythonpath.sh
